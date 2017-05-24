@@ -1,6 +1,7 @@
 $('div.subitem input[type=text]').addClass('mdl-textfield__input');
 $('div.subitem').addClass('mdl-textfield').addClass('mdl-js-textfield');
 $('div.subitem label').addClass('mdl-textfield__label');
+$('html').addClass('mdl-js');
 
 
 /**
