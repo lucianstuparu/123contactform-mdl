@@ -1,0 +1,235 @@
+.form-top-aligned .row-fluid {
+	padding-bottom:0;
+}
+
+#errordiv {
+	margin-left:10px;
+}
+
+#errordiv span.errormsg {
+	font-size:12px;
+}
+
+div.subitem {
+	width:100%;
+}
+
+div.subitem input[type=text], div.subitem input[type=email], div.subitem textarea {
+  box-sizing: border-box;
+  display: block;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #0e6252;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  outline: none;
+  width: 100%;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.7em;
+  background-image: none;
+  height:auto;
+}
+
+div.subitem input[type=text]:focus, div.subitem input[type=email]:focus, div.subitem textarea:focus, div.subitem .select2-container a.select2-choice:active {
+  border-color: #3F51B5;
+  border-width: 2px;
+}
+
+div.subitem select.class-123select {
+	background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    height: 3rem;
+}
+div.subitem .select2-container a.select2-choice {
+	border:0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+div.subitem label {
+	padding-top: 20px;
+    position: absolute !important;
+    font-size: 16px !important;
+	font-family: Roboto, sans-serif;
+    color: #666 !important;
+    font-weight: 400;
+    top: -10px !important;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+}
+
+.requiredfield:not(.likert-label):after {
+	position: absolute !important;
+    font-size: 16px !important;
+	font-family: Roboto, sans-serif;
+    color: #666 !important;
+    font-weight: 400;
+    top: 15px !important;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+}
+
+.focus .row .class123-label, .validation-error .row .class123-label, .row label.class123-label.active{
+    font-size: 13px !important;
+    color: #3F51B5 !important;
+    font-weight: 400;
+    top: -30px !important;
+}
+
+.focus .row .class123-label.requiredfield:not(.likert-label):after, .validation-error .row .class123-label.requiredfield:not(.likert-label):after, .row label.class123-label.active.requiredfield:not(.likert-label):after {
+	font-size: 13px !important;
+    color: #3F51B5 !important;
+    font-weight: 400;
+}
+
+.validation-error .row .class123-label, .validation-error .row .class123-label.requiredfield:not(.likert-label):after {
+	color: #d50000;
+}
+
+.form-top-aligned .class123-label:not(.likert-label):not(#language-label) {
+	font-size:.8rem;
+	position:static;
+}
+
+input[type="checkbox"]:not(old)+label>.outside{
+	border-radius:2px;
+	border-color: #3F51B5;
+	border-width: 2px;
+}
+
+input[type="checkbox"]:not(old)+label>.outside>.inside {
+	background-color: #3F51B5;
+}
+
+input#id123-control29537184::before {
+	content: "Read this: ";
+}
+
+.validation-error input[type="text"]:not(.exclude-error-input):not(.no-validation-error), .validation-error input[type="email"]:not(.exclude-error-input):not(.no-validation-error), .validation-error input[type="url"]:not(.exclude-error-input):not(.no-validation-error), .validation-error input[type="password"]:not(.exclude-error-input):not(.no-validation-error) {
+	background-color:transparent;
+}
+
+/**
+ * MUI Buttons
+ */
+div.subitem  input.class123-button, div.control-row  input.class123-button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #3F51B5;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  height: 36px;
+  padding: 0 26px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  background-image: none;
+  text-align: center;
+  line-height: 36px;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 14px;
+  font-family: inherit;
+  letter-spacing: 0.03em;
+  position: relative;
+  overflow: hidden;
+}
+
+div.subitem  input.class123-button:hover, div.subitem  input.class123-button:focus, div.subitem  input.class123-button:active, div.control-row  input.class123-button:hover, div.control-row  input.class123-button:focus, div.control-row  input.class123-button:active {
+  color: rgba(0, 0, 0, 0.87);
+  background-color:white;
+}
+
+div.subitem  input.class123-button[disabled]:hover, div.subitem  input.class123-button[disabled]:focus, div.subitem  input.class123-button[disabled]:active, div.control-row  input.class123-button[disabled]:hover, div.control-row  input.class123-button[disabled]:focus, div.control-row  input.class123-button[disabled]:active {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #FFF;
+}
+
+div.subitem  input.class123-button:hover, div.subitem  input.class123-button:focus, div.subitem  input.class123-button:active, div.control-row  input.class123-button:hover, div.control-row  input.class123-button:focus, div.control-row  input.class123-button:active {
+  outline: 0;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+div.subitem  input.class123-button:hover, div.subitem  input.class123-button:focus, div.control-row  input.class123-button:hover, div.control-row  input.class123-button:focus {
+  box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  div.subitem  input.class123-button:hover, div.subitem  input.class123-button:focus, div.control-row  input.class123-button:hover, div.control-row  input.class123-button:focus {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  div.subitem  input.class123-button:hover, div.subitem  input.class123-button:focus, div.control-row  input.class123-button:hover, div.control-row  input.class123-button:focus {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+}
+
+div.subitem  input.class123-button:active:hover, div.control-row  input.class123-button:active:hover {
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  div.subitem  input.class123-button:active:hover, div.control-row  input.class123-button:active:hover {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  div.subitem  input.class123-button:active:hover, div.control-row  input.class123-button:active:hover {
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.12), -1px 0px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.12), 1px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+div.subitem  input.class123-button:disabled, div.subitem  input.class123-button.mui--is-disabled, div.control-row  input.class123-button:disabled, div.control-row  input.class123-button.mui--is-disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.60;
+  box-shadow: none;
+}
+
+div.subitem  input.class123-button + div.subitem  input.class123-button, div.control-row  input.class123-button + div.control-row  input.class123-button {
+  margin-left: 8px;
+}
+
+
+div.subitem  input.class123-button, div.control-row  input.class123-button {
+  color: #FFF;
+  background-color: #3F51B5;
+}
+
+div.subitem  input.class123-button:hover, div.subitem  input.class123-button:focus, div.subitem  input.class123-button:active, div.control-row  input.class123-button:hover, div.control-row  input.class123-button:focus, div.control-row  input.class123-button:active {
+  color: #FFF;
+  background-color: #ff5a92;
+}
+
+div.subitem  input.class123-button[disabled]:hover, div.subitem  input.class123-button[disabled]:focus, div.subitem  input.class123-button[disabled]:active, div.control-row  input.class123-button[disabled]:hover, div.control-row  input.class123-button[disabled]:focus, div.control-row  input.class123-button[disabled]:active {
+  color: #FFF;
+  background-color: #3F51B5;
+}
