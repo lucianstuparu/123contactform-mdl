@@ -1,4 +1,10 @@
 
+#et-top-navigation, ul#top-menu li a {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	transition: none !important;
+}
+
 #footer-widgets a {
 	color:#314240 !important;
 }
