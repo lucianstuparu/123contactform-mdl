@@ -1,3 +1,8 @@
+a.circle-icons:hover p, a.circle-icons:hover p i {
+	color:#fffe99 !important;
+	border-color:#fffe99;
+	-webkit-text-stroke-color:#fffe99;
+}
 
 #et-top-navigation, ul#top-menu li a {
 	-webkit-transition: none !important;
