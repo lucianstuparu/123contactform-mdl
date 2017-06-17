@@ -1,4 +1,8 @@
 
+.et-fixed-header #et-top-navigation nav > ul > li > a {
+	padding-bottom:10px !important;
+}
+
 #footer-widgets a {
 	color:#314240 !important;
 }
