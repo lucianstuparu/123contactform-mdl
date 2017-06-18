@@ -1,4 +1,4 @@
-$("div.subitem input, document").on("focusout", function() {
+$("div.subitem input, window").on("blur", function() {
  if($(this).val() === "") {
     $("#" + $(this).attr('id').replace('control', 'title')).removeClass('active');
  } else {
