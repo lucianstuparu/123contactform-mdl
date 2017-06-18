@@ -96,7 +96,7 @@ div.fieldcontainer.focus .row .class123-label, .validation-error .row .class123-
     font-size: 13px !important;
     color: #017D7C !important;
     font-weight: 400;
-    top: -33px !important;
+    top: -30px !important;
 }
 
 .focus .row .class123-label.requiredfield:not(.likert-label):after, .validation-error .row .class123-label.requiredfield:not(.likert-label):after, .row label.class123-label.active.requiredfield:not(.likert-label):after {
