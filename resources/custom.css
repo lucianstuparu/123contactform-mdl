@@ -702,13 +702,14 @@ ul#top-menu .menu-item-home a i {
 	text-align:left;
 }
 
-.join-us-arrow-voluntar {
+.join-us-arrow {
 	width: 0; 
   	height: 0; 
   	border-left: 20px solid transparent;
   	border-right: 20px solid transparent;
   	border-top: 20px solid #00bcbd;
 	margin:0 auto;
+	display:none;
 }
 
 #tab-voluntar {
