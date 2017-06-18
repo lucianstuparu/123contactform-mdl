@@ -3,8 +3,9 @@
 	
 	var current_hash = window.location.hash.substr(1);
 	if (current_hash != '') {
-	    $('#tab-'+ current_hash).trigger('click');
+	    current_hash = 'voluntar';
 	}
+	$('#tab-'+ current_hash).trigger('click');
 	
 	function toggleJoinUs() {
 		var selected_form_id = $(this).attr('id') + '-form';
