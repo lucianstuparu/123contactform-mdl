@@ -10,6 +10,10 @@
    width:100% !important;	
 }
 
+.select2-container a.select2-choice {
+  padding-left:0;	
+}
+
 span.page-number {
     display: none !important;
 }
