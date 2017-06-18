@@ -2,6 +2,10 @@
   padding-left:10px;	
 }
 
+.optionscontainer .pagination-active span.page-title {
+  color:#009896;	
+}
+
 .select2-container {
    width:100% !important;	
 }
