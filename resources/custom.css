@@ -678,7 +678,7 @@ ul#top-menu .menu-item-home a i {
 }
 
 .join-us-forms:hover {
-	background:#00bcbd;
+	background:#00bcbd !important;
 }
 
 .join-us-forms:hover .circle-icons p, .join-us-forms:hover .circle-icons p i {
