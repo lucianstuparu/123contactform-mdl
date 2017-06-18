@@ -1,3 +1,11 @@
+.select2-container {
+   width:100% !important;	
+}
+
+span.page-number {
+    display: none !important;
+}
+
 .form-top-aligned .row-fluid {
 	padding-bottom:0;
 }
@@ -37,6 +45,7 @@ div.subitem input[type=text], div.subitem input[type=email], div.subitem textare
   line-height: 1.7em;
   background-image: none;
   height:auto;
+  margin-bottom:15px;
 }
 
 div.subitem input[type=text]:focus, div.subitem input[type=email]:focus, div.subitem textarea:focus, div.subitem .select2-container a.select2-choice:active {
@@ -87,7 +96,7 @@ div.subitem label {
     font-size: 13px !important;
     color: #3F51B5 !important;
     font-weight: 400;
-    top: -30px !important;
+    top: -33px !important;
 }
 
 .focus .row .class123-label.requiredfield:not(.likert-label):after, .validation-error .row .class123-label.requiredfield:not(.likert-label):after, .row label.class123-label.active.requiredfield:not(.likert-label):after {
