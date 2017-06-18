@@ -1,4 +1,4 @@
-$("div.subitem input, window").on("blur", function() {
+$("div.subitem input, window").on("focusout", function() {
  if($(this).val() === "") {
     $("#" + $(this).attr('id').replace('control', 'title')).removeClass('active');
  } else {
@@ -6,3 +6,11 @@ $("div.subitem input, window").on("blur", function() {
  }
 });
 
+$(window).on("blur", function() {
+ $('label.active').each(function() {
+    var input_id = $(this).attr('id').replace('title', 'control');
+    if ($('#' + input_id).val() === '') {
+        $(this).removeClass('active');
+    }
+ });
+});
