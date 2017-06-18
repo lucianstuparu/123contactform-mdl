@@ -11,15 +11,13 @@
 		
 		var selected_form_id = $(this).attr('id') + '-form';
 		var selected_arrow_id = selected_form_id + '-arrow';
-		var current_form_id = $('.join-us-tab-forms:visible').attr('id');
-		var current_arrow_id = current_form_id + '-arrow';
 		if ($(this).hasClass('join-us-tab-selected')) {
 		   return;
 		} else {
 		   $('.join-us-tab-selected').removeClass('join-us-tab-selected');
 		   $(this).addClass('join-us-tab-selected');
-                   $('#' + current_form_id).hide();
-		   $('#' + current_arrow_id).hide();
+		   $('.join-us-arrow').hide();
+		   $('.join-us-tab-forms').hide();
 		   $('#' + selected_form_id).show();
 		   $('#' + selected_arrow_id).show();
 		}	
