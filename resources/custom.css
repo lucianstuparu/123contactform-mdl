@@ -677,7 +677,7 @@ ul#top-menu .menu-item-home a i {
 	padding-top:45px;
 }
 
-.join-us-tabs:hover {
+.join-us-tabs:hover, .join-us-tabs.join-us-tab-selected {
 	background:#00bcbd !important;
 }
 
