@@ -92,7 +92,7 @@ div.subitem label {
 	-o-transition: all 0.2s ease;
 }
 
-.focus .row .class123-label, .validation-error .row .class123-label, .row label.class123-label.active{
+div.fieldcontainer.focus .row .class123-label, .validation-error .row .class123-label, .row label.class123-label.active{
     font-size: 13px !important;
     color: #017D7C !important;
     font-weight: 400;
