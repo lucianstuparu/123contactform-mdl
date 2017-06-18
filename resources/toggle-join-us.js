@@ -2,7 +2,7 @@
 	$('.join-us-tabs').on('click', toggleJoinUs);
 	
 	var current_hash = window.location.hash.substr(1);
-	if (current_hash != '') {
+	if (current_hash == '') {
 	    current_hash = 'voluntar';
 	}
 	$('#tab-'+ current_hash).trigger('click');
