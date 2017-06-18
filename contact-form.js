@@ -7,7 +7,4 @@ $("div.subitem input").on("focusout", function() {
 });
 
 $(window).on("blur", function() {
- $('.fieldcontainer.active').each(function() {
-    $(this).removeClass('focus');
- });
-});
+ $('.fieldcontainer.focus').removeClass('focus');
