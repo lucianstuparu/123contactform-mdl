@@ -8,3 +8,4 @@ $("div.subitem input").on("focusout", function() {
 
 $(window).on("blur", function() {
  $('.fieldcontainer.focus').removeClass('focus');
+});
