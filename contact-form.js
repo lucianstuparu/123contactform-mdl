@@ -7,10 +7,7 @@ $("div.subitem input").on("focusout", function() {
 });
 
 $(window).on("blur", function() {
- $('label.active').each(function() {
-    var input_id = $(this).attr('id').replace('title', 'control');
-    if ($('#' + input_id).val() === '') {
-        $(this).removeClass('active');
-    }
+ $('.fieldcontainer.active').each(function() {
+    $(this).removeClass('focus');
  });
 });
