@@ -1,3 +1,7 @@
+.fieldcontainer {
+  margin-bottom:15px;	
+}
+
 .optionscontainer {
   padding-left:10px;	
 }
@@ -57,7 +61,6 @@ div.subitem input[type=text], div.subitem input[type=email], div.subitem textare
   line-height: 1.7em !important;
   background-image: none;
   height:auto;
-  margin-bottom:15px;
 }
 
 div.subitem input[type=text]:focus, div.subitem input[type=email]:focus, div.subitem textarea:focus, div.subitem .select2-container a.select2-choice:active {
