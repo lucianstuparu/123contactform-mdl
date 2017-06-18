@@ -1,3 +1,5 @@
 (function($){
-	alert($('#join-us-voluntary').size());
+	$('.join-us-forms').on('click', function () {
+		
+	});
 })(jQuery);
