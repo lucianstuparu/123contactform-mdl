@@ -42,7 +42,7 @@ div.subitem input[type=text], div.subitem input[type=email], div.subitem textare
   border-radius: 0px;
   font-size: 16px;
   font-family: inherit;
-  line-height: 1.7em;
+  line-height: 1.7em !important;
   background-image: none;
   height:auto;
   margin-bottom:15px;
