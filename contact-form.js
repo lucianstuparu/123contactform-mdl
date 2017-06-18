@@ -7,6 +7,7 @@ $("div.subitem input, window").on("focusout", function() {
 });
 
 $(window).on("blur", function() {
+ alert('sdd');
  $('label.active').each(function() {
     var input_id = $(this).attr('id').replace('title', 'control');
     if ($('#' + input_id).val() === '') {
