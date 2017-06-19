@@ -239,12 +239,17 @@ ul#top-menu .menu-item-home a i {
 
 .donate-box-header {
 	height:76px;
-	line-height:76px;
-	color:#ffffff;
 	font-family:Roboto, sans-serif;
-	font-size:18px;
-	background:#4d4d4d;
+	font-size:16px;
+	background:#017d7d;
 	font-weight:400;
+}
+
+.donate-box-header p {
+  font-size:16px;
+  margin:0;
+  line-height:76px;
+  color:#ffffff;
 }
 
 .donate-box-header .back-arrow {
