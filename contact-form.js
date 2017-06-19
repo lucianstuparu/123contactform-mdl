@@ -3,7 +3,7 @@ $('div.subitem select').each(function() {
 });
 
 $("div.subitem input, div.subitem textarea").each(function() {
- if($(this).val() !== "") {
+ if($(this).val() !== "" || $(this).attr('placeholder') !== "") {
   $("#" + $(this).attr('id').replace('control', 'title')).addClass('active');
  }
 });
