@@ -19,7 +19,7 @@ $('div.subitem span.fileinput-button').each(function() {
 });
 
 $("div.subitem input, div.subitem textarea").on("focusout", function() {
- if($(this).val() === "") {
+ if($(this).val() === "" && $(this).attr('placeholder') == null) {
     $("#" + $(this).attr('id').replace('control', 'title')).removeClass('active');
  } else {
     $("#" + $(this).attr('id').replace('control', 'title')).addClass('active');
