@@ -4,6 +4,7 @@ input[type="radio"]:not(old)+label>.outside {
 
 input[type="radio"]:not(old)+label>.outside>.inside {
   background: #017D7C !important;
+  margin:2px !important;
 }
 
 input[type="checkbox"]:not(old)+label>.outside>.inside {
@@ -128,6 +129,12 @@ div.fieldcontainer.focus .row .class123-label.class123-fieldname, .validation-er
     color: #017D7C !important;
     font-weight: 400;
     top: -30px !important;
+}
+
+div.fieldcontainer {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .focus .row .class123-label.class123-fieldname.requiredfield:not(.likert-label):after, .validation-error .row .class123-label.class123-fieldname.requiredfield:not(.likert-label):after, .row label.class123-label.class123-fieldname.active.requiredfield:not(.likert-label):after {
