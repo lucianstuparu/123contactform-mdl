@@ -80,7 +80,7 @@ div.subitem .select2-container a.select2-choice {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.26);
 }
 
-div.subitem label {
+div.subitem label.class123-label.class123-fieldname {
 	padding-top: 20px;
     position: absolute !important;
     font-size: 16px !important;
