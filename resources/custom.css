@@ -245,6 +245,10 @@ ul#top-menu .menu-item-home a i {
 	font-weight:400;
 }
 
+#donate-box-header2, #donate-box-step2 {
+  display:none;
+}
+
 .donate-box-header p {
   font-size:16px;
   margin:0;
