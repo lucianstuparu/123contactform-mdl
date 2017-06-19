@@ -1,5 +1,5 @@
 .contact_details a {
-  color: #24baac;	
+  color: #24baac !important;	
 }
 
 input[type="radio"]:not(old)+label>.outside {
