@@ -107,24 +107,24 @@ div.subitem label {
 	-o-transition: all 0.2s ease;
 }
 
-div.fieldcontainer.focus .row .class123-label, .validation-error .row .class123-label, .row label.class123-label.active{
+div.fieldcontainer.focus .row .class123-label.class123-fieldname, .validation-error .row .class123-label.class123-fieldname, .row label.class123-label.class123-fieldname.active{
     font-size: 13px !important;
     color: #017D7C !important;
     font-weight: 400;
     top: -30px !important;
 }
 
-.focus .row .class123-label.requiredfield:not(.likert-label):after, .validation-error .row .class123-label.requiredfield:not(.likert-label):after, .row label.class123-label.active.requiredfield:not(.likert-label):after {
+.focus .row .class123-label.class123-fieldname.requiredfield:not(.likert-label):after, .validation-error .row .class123-label.class123-fieldname.requiredfield:not(.likert-label):after, .row label.class123-label.class123-fieldname.active.requiredfield:not(.likert-label):after {
 	font-size: 13px !important;
     color: #017D7C !important;
     font-weight: 400;
 }
 
-.validation-error .row .class123-label, .validation-error .row .class123-label.requiredfield:not(.likert-label):after {
+.validation-error .row .class123-label.class123-fieldname, .validation-error .row .class123-label.class123-fieldname.requiredfield:not(.likert-label):after {
 	color: #d50000;
 }
 
-.form-top-aligned .class123-label:not(.likert-label):not(#language-label) {
+.form-top-aligned .class123-label.class123-fieldname:not(.likert-label):not(#language-label) {
 	font-size:.8rem;
 	position:static;
 }
