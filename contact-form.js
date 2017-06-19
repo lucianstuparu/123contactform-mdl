@@ -8,7 +8,7 @@ $("div.subitem input, div.subitem textarea").each(function() {
  }
 });
 
-$("div.subitem input[type="checkbox"]").each(function() {
+$("div.subitem input[type='checkbox']").each(function() {
  var input_id = $(this).attr('id');
  $('label[for="'+input_id+'"].class123-fieldname').addClass('active');
 });
