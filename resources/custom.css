@@ -271,6 +271,23 @@ ul#top-menu .menu-item-home a i {
 	padding-top:10px;
 }
 
+
+#donate-box-header1 p {
+  margin-left:30px;
+}
+
+#donate-box-step1 form {
+	width:70%;
+	margin:0 auto;
+    font-size:16px;
+}
+
+#donate-box-step1 form input[type="text"] {
+	background:none;
+	border:none;
+	border-bottom:2px solid #fff;
+}
+
 .donation-vendor {
 	width:262px;
 	margin:36px auto 0 auto;
