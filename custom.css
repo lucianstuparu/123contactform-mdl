@@ -1,3 +1,7 @@
+input[type="checkbox"]:not(old)+label>.outside>.inside {
+  background-image: url(https://rawgit.com/lucianstuparu/123contactform-mdl/master/checkbox-icon-white.png) !important;
+}
+
 .fieldcontainer {
   margin-bottom:15px !important;	
 }
