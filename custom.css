@@ -1,5 +1,17 @@
+input[type="radio"]:not(old)+label>.outside {
+  border: 2px solid #017D7C !important;
+}
+
+input[type="radio"]:not(old)+label>.outside>.inside {
+  background: #017D7C !important;
+}
+
 input[type="checkbox"]:not(old)+label>.outside>.inside {
   background-image: url(https://rawgit.com/lucianstuparu/123contactform-mdl/master/checkbox-icon-white.png) !important;
+}
+
+.label-text a {
+  color:#017D7C !important;
 }
 
 .fieldcontainer {
