@@ -271,7 +271,7 @@ div.subitem  input.class123-button, div.control-row  input.class123-button, span
   background-color: #017D7C;
 }
 
-span.fileinput-button input[type="file"] {
+span.fileinput-button {
   color: #FFF !important;
 }
 
