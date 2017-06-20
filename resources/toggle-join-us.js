@@ -1,6 +1,6 @@
 (function($){
 	$('.join-us-tabs').on('click', toggleJoinUs);
-	
+	alert('dd1');
 	var current_hash = window.location.hash.substr(1);
 	if (current_hash == '') {
 	    current_hash = 'voluntar';
