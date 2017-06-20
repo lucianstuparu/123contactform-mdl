@@ -1,4 +1,4 @@
-alert('dd2');
+alert($('.join-us-tabs').size());
 
 (function($){
 	$('.join-us-tabs').on('click', toggleJoinUs);
