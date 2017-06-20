@@ -1,3 +1,20 @@
+.pagination-active {
+	background: #e0f2f1;
+}
+
+#mainform123 .class123-pagination {
+	padding-bottom:30px;	
+}
+
+.class123-pagination .pagination-item {
+	text-align:center;	
+}
+
+.class123-pagination .pagination-item.pagination-active .page-number {
+	font-weight:bold;	
+}
+
+
 input[type="radio"]:not(old)+label>.outside {
   border: 2px solid #017D7C !important;
 }
