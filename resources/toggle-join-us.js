@@ -1,3 +1,5 @@
+alert('dd2');
+
 (function($){
 	$('.join-us-tabs').on('click', toggleJoinUs);
 	alert('dd1');
