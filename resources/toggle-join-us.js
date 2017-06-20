@@ -8,7 +8,7 @@
 	$('#tab-'+ current_hash).trigger('click');
 	
 	function toggleJoinUs() {
-		
+		alert('dd');
 		var selected_form_id = $(this).attr('id') + '-form';
 		var selected_arrow_id = selected_form_id + '-arrow';
 		if ($(this).hasClass('join-us-tab-selected')) {
