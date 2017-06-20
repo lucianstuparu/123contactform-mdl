@@ -1,8 +1,6 @@
-alert($('.join-us-tabs').size());
-
 (function($){
 	$('.join-us-tabs').on('click', toggleJoinUs);
-	alert('dd1');
+
 	var current_hash = window.location.hash.substr(1);
 	if (current_hash == '') {
 	    current_hash = 'voluntar';
@@ -10,7 +8,7 @@ alert($('.join-us-tabs').size());
 	$('#tab-'+ current_hash).trigger('click');
 	
 	function toggleJoinUs() {
-		alert('dd');
+	
 		var selected_form_id = $(this).attr('id') + '-form';
 		var selected_arrow_id = selected_form_id + '-arrow';
 		if ($(this).hasClass('join-us-tab-selected')) {
