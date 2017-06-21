@@ -632,6 +632,14 @@ ul#top-menu .menu-item-home a i {
   text-align: center;
 }
 
+#join-us-banner a.circle-icons {
+	display:block;	
+}
+
+#join-us-banner a.circle-icons:hover {
+  background:#00bcbd !important;
+}
+
 .become-donor-section-header .circle-icons {
 	overflow:hidden;
 }
@@ -671,7 +679,8 @@ ul#top-menu .menu-item-home a i {
 .circle-icons p {
     font-size: 18px;
     color: #ffffff;
-    margin-top: 15px;
+    margin-top: 0;
+    padding-bottom:0;
 }
 
 .become-donor-section-header .circle-icons p {
@@ -682,6 +691,7 @@ ul#top-menu .menu-item-home a i {
 	text-align:left;
 	padding-left:18px;
 	padding-top:10px;
+	margin-top: 15px;
 }
 
 .circle-icons p b {
