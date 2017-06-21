@@ -191,7 +191,7 @@ input#id123-control29537184::before {
  * MUI Buttons
  */
 div.subitem  input.class123-button, div.control-row  input.class123-button {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -199,7 +199,7 @@ div.subitem  input.class123-button, div.control-row  input.class123-button {
   background-color: #017D7C;
   transition: all 0.2s ease-in-out;
   display: inline-block;
-  height: 36px;
+  height: 54px;
   padding: 0 26px;
   margin: 6px 0;
   border: none;
@@ -209,14 +209,14 @@ div.subitem  input.class123-button, div.control-row  input.class123-button {
   touch-action: manipulation;
   background-image: none;
   text-align: center;
-  line-height: 36px;
+  line-height: 54px;
   vertical-align: middle;
   white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-size: 14px;
+  font-size: 24px;
   font-family: inherit;
   letter-spacing: 0.03em;
   position: relative;
