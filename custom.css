@@ -82,7 +82,7 @@ div.subitem input[type=text], div.subitem input[type=email], div.subitem textare
   background-position: -200px 0;
   background-size: 200px 100%;
   background-repeat: no-repeat;
-  color: #0e6252;
+  color: #0e6252 !important;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.26);
   outline: none;
