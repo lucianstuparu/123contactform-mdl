@@ -1039,6 +1039,10 @@ body #page-container .et_pb_button {
 	width: 19px;
 }
 
+.contact_details a{
+	font-weight:400;
+}
+
 #contact_address_details span.contact_cities{
 	font-weight:400;
 }
