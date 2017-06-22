@@ -20,8 +20,7 @@ a.circle-icons:hover p, a.circle-icons:hover p i {
 
 #footer-social-area {	
 	text-align:center;
-	padding-top:38px;
-	padding-bottom:60px;
+	padding-bottom:50px;
 }
 
 #footer-social-area a {
@@ -37,8 +36,8 @@ a.circle-icons:hover p, a.circle-icons:hover p i {
 
 #footer-contact-area div {
 	display:inline-block;
-    margin:auto 25px;
-    color:#8b9897;
+    	margin-bottom:60px;
+    	color:#4a5a58;
 }
 .footer-widget:nth-child(n) {
 	width:100% !important;
@@ -97,7 +96,7 @@ a.circle-icons:hover p, a.circle-icons:hover p i {
 #footer-widgets .widget_nav_menu {
 	text-align:center;
 	float:none;
-	margin-bottom:35px;
+	margin-bottom:30px;
 }
 
 #menu-footer-menu li a {
