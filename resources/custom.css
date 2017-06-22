@@ -778,8 +778,8 @@ h1, h2 {
 }
 
 #top-menu > li:last-child a {
-  color:#fffe99;
-  font-weight: bold;
+  color:#fff;
+  font-weight: 700 !important;
 }
 
 #main-header {
