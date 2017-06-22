@@ -131,6 +131,11 @@ a.circle-icons:hover p, a.circle-icons:hover p i {
 
 #home-what-we-do .project-type-item{
 	width:250px;
+	display:block;
+}
+
+#home-what-we-do .project-type-item:hover {
+	color:#009999;
 }
 
 
