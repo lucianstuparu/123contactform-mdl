@@ -1038,9 +1038,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -o-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-.c100:hover {
-  cursor: default;
-}
 .c100:hover:after {
   top: 0.026em;
   left: 0.026em;
