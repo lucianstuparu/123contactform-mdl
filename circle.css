@@ -1,7 +1,7 @@
 /**
 Copyright (c) 2016 Adrian Fürschuß
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of/ charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
@@ -115,7 +115,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .c100.p99 .fill,
 .c100.p100 .fill {
   position: absolute;
-  border: 0.08em solid #307bbb;
+  border: 0.08em solid #00cccc;
   width: 0.84em;
   height: 0.84em;
   clip: rect(0em, 0.5em, 1em, 0em);
@@ -262,8 +262,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   top: 0;
   line-height: 3em;
   font-size: 24px;
-  font-family: "Roboto Black";
-  color: #535353;
+  font-family: Roboto, sans-serif;
+  font-weight:900;
+  color: #003333;
   display: block;
   text-align: center;
   white-space: nowrap;
@@ -288,8 +289,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   top: 40px;
   line-height: 3em;
   font-size: 11px;
-  font-family: "Roboto Light";
-  color: #535353;
+  font-family: Roboto, sans-serif;
+  color: #003333;
+  font-weight:300;
   display: block;
   text-align: center;
   white-space: nowrap;
@@ -309,14 +311,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .c100:after {
   position: absolute;
-  top: 0.08em;
-  left: 0.08em;
+  top: 0.045em;
+  left: 0.045em;
   display: block;
   content: " ";
   border-radius: 50%;
-  background-color: #f5f5f5;
-  width: 0.84em;
-  height: 0.84em;
+  background-color: #fff;
+  width: 0.9em;
+  height: 0.9em;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1040,8 +1042,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   cursor: default;
 }
 .c100:hover:after {
-  top: 0.04em;
-  left: 0.04em;
-  width: 0.92em;
-  height: 0.92em;
+  top: 0.026em;
+  left: 0.026em;
+  width: 0.94em;
+  height: 0.94em;
 }
