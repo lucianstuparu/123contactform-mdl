@@ -891,7 +891,8 @@ h1, h2 {
 }
 
 .tabs ul.et_pb_tabs_controls:after {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #999999;
+	border-top:0
 	top:-8px;
 	z-index:1;
 }
