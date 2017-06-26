@@ -236,8 +236,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .c100 {
   position: relative;
   font-size: 120px;
-  width: 1em;
-  height: 1em;
+  width: 84px;
+  height: 84px;
   border-radius: 50%;
   float: left;
   margin: 0;
@@ -311,14 +311,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .c100:after {
   position: absolute;
-  top: 0.055em;
-  left: 0.053em;
+  top: 5px;
+  left: 5px;
   display: block;
   content: " ";
   border-radius: 50%;
   background-color: #fff;
-  width: 0.9em;
-  height: 0.9em;
+  width: 74px;
+  height: 74px;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1039,8 +1039,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   transform: rotate(360deg);
 }
 .c100:hover:after {
-  top: 0.034em;
-  left: 0.0305em;
-  width: 0.94em;
-  height: 0.94em;
+  top: 3px;
+  left: 3px;
+  width: 78px;
+  height: 78px;
 }
