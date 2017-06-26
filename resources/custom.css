@@ -419,8 +419,8 @@ ul#top-menu .menu-item-home a i {
 }
 
 .project-summary-progress {
-	float:left;
-	padding-right:30px;
+	width:84px;
+	margin:0 auto;
 }
 
 .project-summary-details {
