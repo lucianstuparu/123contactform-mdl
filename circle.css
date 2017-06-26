@@ -311,8 +311,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .c100:after {
   position: absolute;
-  top: 0.045em;
-  left: 0.045em;
+  top: 0.055em;
+  left: 0.055em;
   display: block;
   content: " ";
   border-radius: 50%;
@@ -1039,8 +1039,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   transform: rotate(360deg);
 }
 .c100:hover:after {
-  top: 0.026em;
-  left: 0.026em;
+  top: 0.031em;
+  left: 0.031em;
   width: 0.94em;
   height: 0.94em;
 }
