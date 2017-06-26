@@ -183,7 +183,10 @@ ul.et-social-icons {
 }
 
 #main-header.et-fixed-header {
-	box-shadow: 0px 2px 5px #2e7a9d !important;
+	background: #e2fdfd;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(102,102,102,1) !important;
+    -moz-box-shadow: 0px 0px 5px 0px rgba(102,102,102,1) !important;
+    box-shadow: 0px 0px 5px 0px rgba(102,102,102,1) !important;
 }
 
 #main-header.et-fixed-header .container {
