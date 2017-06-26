@@ -254,7 +254,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .c100.small {
   font-size: 84px;
 }
-.c100 > span.percentage {
+.c100 span.percentage {
   position: absolute;
   width: 100%;
   z-index: 1;
@@ -281,7 +281,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -o-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.c100 > span.tagline {
+.c100 span.tagline {
   position: absolute;
   width: 100%;
   z-index: 1;
