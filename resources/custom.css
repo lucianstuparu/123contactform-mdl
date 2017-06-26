@@ -395,22 +395,6 @@ ul#top-menu .menu-item-home a i {
 	padding:28px;
 }
 
-.project-bottom-links a.all {
-	padding-left:20px;
-	padding-right:20px;
-	margin-left:10px;
-	height:44px;
-	border:1px solid #535353;
-	border-radius:3px;
-	line-height:44px;
-	font-size:18px;
-	font-weight:bold;
-	font-family: Roboto, sans-serif;
-	color: #535353;
-	text-align:center;
-	display:inline-block;
-}
-
 .project-summary {
 	background:#4d4d4d;
 	height:80px;
@@ -451,23 +435,6 @@ ul#top-menu .menu-item-home a i {
 }
 .project-summary-links a {
 	float:right;
-}
-
-.project-summary-links a.live, .project-bottom-links a.live {
-	padding-left:20px;
-	padding-right:20px;
-	margin-left:10px;
-	height:44px;
-	background:#767676;
-	border:1px solid #767676;
-	border-radius:3px;
-	line-height:44px;
-	font-size:18px;
-	font-weight:bold;
-	font-family: Roboto, sans-serif;
-	color: #ffffff;
-	text-align:center;
-	display:inline-block;
 }
 
 .project-summary-links a.github{
