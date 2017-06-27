@@ -374,6 +374,7 @@ ul#top-menu .menu-item-home a i {
 
 .project-member .et_pb_blurb_content {
 	padding: 0px 20px !important;
+	min-width: 220px;
 }
 
 .project-member img {
