@@ -877,7 +877,7 @@ h1, h2 {
 .tabs-project-details {
 	width: 100%;
 	border:0;
-	margin-top:30px !important;
+	margin-top:0px !important;
 }
 
 .tabs-project-details ul.et_pb_tabs_controls {
