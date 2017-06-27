@@ -1029,8 +1029,12 @@ body #page-container .et_pb_button {
 	padding-bottom: 5px;
 }
 
+.contact_details h5 {
+	font-weight:700;
+}
+
 .contact_details span.contact_detail_symbol {
-	color: #717171;
+	color: #009999;
 	display:inline-block;
 	margin-right:10px;
 	text-align:center;
@@ -1039,6 +1043,11 @@ body #page-container .et_pb_button {
 
 .contact_details a{
 	font-weight:400;
+	color:#333;
+}
+
+.contact_details a:hover {
+	color: #009999;
 }
 
 #contact_address_details span.contact_cities{
@@ -1846,7 +1855,7 @@ div.g-recaptcha div, div.g-recaptcha iframe{
 
 @media (min-width: 981px) {
 	#contact-form-col {
-		box-shadow: 0 2px 2px 0 rgba(1,125,124,0.44), 0 2px 5px 0 rgba(1,125,124,0.42), 0 3px 1px -2px rgba(1,125,124,0.2);
+		border:1px solid #99cccc;
 	}
 }
 
