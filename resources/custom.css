@@ -1857,13 +1857,6 @@ div.g-recaptcha div, div.g-recaptcha iframe{
 	width:100%;
 }
 
-@media (min-width: 981px) {
-	#contact-form-col {
-		border:1px solid #99cccc;
-	}
-}
-
-
 @media (max-width: 980px) {
 	#et_top_search {
     	float: right;
