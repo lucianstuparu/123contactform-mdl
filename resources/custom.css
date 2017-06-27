@@ -368,6 +368,10 @@ ul#top-menu .menu-item-home a i {
 	line-height:1em;
 }
 
+.project-member .et_pb_blurb_container h4 a:hover {
+	color:#009999;
+}
+
 .project-member .et_pb_blurb_content {
 	padding: 0px 20px !important;
 }
