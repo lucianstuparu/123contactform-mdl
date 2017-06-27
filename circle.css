@@ -268,6 +268,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   display: block;
   text-align: center;
   white-space: nowrap;
+  cursor:default;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -296,6 +297,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   text-align: center;
   white-space: nowrap;
   text-transform:uppercase;
+  cursor:default;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
