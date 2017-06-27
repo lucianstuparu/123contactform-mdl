@@ -346,45 +346,36 @@ ul#top-menu .menu-item-home a i {
 }
 
 .project-member {
-	padding-top:17px;
 	width:80%;
 	margin:0 auto;
 	clear:both;
 	overflow: hidden
 }
 
-.project-member-picture {
-	float:left;
-	width:52px;
+.project-member .et_pb_main_blurb_image {
+	padding-left:0 !important;
+	width:52px !important;
 }
 
-.project-member-details {
-	float:left;
+.project-member .et_pb_blurb_container {
 	padding-left:10px;
-	font-size:16px;
-	padding-top:3px;
+	width:118px;
 }
 
-.project-member-name a {
-	font-weight:500;
-	color:#535353;
+.project-member .et_pb_blurb_container h4 a {
+	font-size:15px !important;
+	line-height:1em;
 }
 
-.project-member-name a:hover {
-	color:#2ea3f2;
+.project-member .et_pb_blurb_content {
+	padding: 0px 20px !important;
 }
-
-.project-member-title {
-	font-weight:300;
-	color:#666666;
-}
-
 
 .project-details-right-section-title h2 {
 	font-family:Roboto, sans-serif;
 	font-size:24px;
 	font-weight:bold;
-	color:#535353;
+	color:#009999;
 }
 
 #left-area, .single article.et_pb_post {
