@@ -325,6 +325,12 @@ ul#top-menu .menu-item-home a i {
 	width:52px !important;
 }
 
+.project-partner .et_pb_main_blurb_image a {
+	display: inline-block;
+    line-height: 0;
+    vertical-align: middle;
+}
+
 .project-partner .et_pb_blurb_container {
 	padding-left:10px;
 	width:118px;
@@ -333,6 +339,7 @@ ul#top-menu .menu-item-home a i {
 
 .project-partner.et_pb_blurb h4 {
 	padding-right:0 !important;
+	padding-bottom:0 !important;
 	line-height:1.4em !important;
 	font-weight:500 !important;
 	line-height:1.2em !important;
