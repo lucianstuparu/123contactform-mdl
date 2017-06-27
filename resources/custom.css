@@ -371,6 +371,13 @@ ul#top-menu .menu-item-home a i {
 	padding: 0px 20px !important;
 }
 
+.project-member img {
+	width:52px !important;
+	height:52px !important;
+	border:1px solid #666666;
+	border-radius:50%;
+}
+
 .project-details-right-section-title h2 {
 	font-family:Roboto, sans-serif;
 	font-size:24px;
@@ -1358,10 +1365,6 @@ box-shadow: 0px 0px 10px 1px rgba(255,255,255,0.75);
 	background:#5d5d5d;
 }
 
-.project-details-right-section-title h2 {
-	color:#02c4b4;
-}
-
 .project-member p {
 	 background: #666;
     font-size: 10px;
@@ -1423,13 +1426,6 @@ box-shadow: 0px 0px 10px 1px rgba(255,255,255,0.75);
 
 .project-social-buttons {
 	border:0;
-}
-
-.project-member img {
-	width:52px !important;
-height:52px !important;
-border:1px solid #666666;
-border-radius:50%;
 }	
 
 .tabs-project-details ul.et_pb_tabs_controls {
