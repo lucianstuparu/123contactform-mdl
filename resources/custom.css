@@ -1388,10 +1388,6 @@ body #page-container .et_pb_button {
 	pointer-events: auto;
 }
 
-.section-title-inner h1 {
-	font-weight:400;
-}
-
 .circular-img-module:hover {
 	-webkit-box-shadow: 0px 0px 10px 1px rgba(255,255,255,0.75);
 -moz-box-shadow: 0px 0px 10px 1px rgba(255,255,255,0.75);
