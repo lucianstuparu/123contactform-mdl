@@ -43,7 +43,12 @@ input[type="checkbox"]:not(old)+label>.outside>.inside {
   padding-left:0;	
 }
 
-.class123-pagination .pagination-item.pagination-active .page-number, .class123-pagination .pagination-item.pagination-active .page-title, .class123-pagination .pagination-item .page-number {
+.class123-pagination .pagination-item.pagination-active .page-number, .class123-pagination .pagination-item.pagination-active .page-title {
+	color: #009999 !important;
+	padding:0 !important;
+}
+
+.class123-pagination .pagination-item .page-number, .class123-pagination .pagination-item .page-title {
 	color: #333333 !important;
 	padding:0 !important;
 }
