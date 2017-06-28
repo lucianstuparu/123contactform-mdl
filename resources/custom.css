@@ -719,14 +719,16 @@ ul#top-menu .menu-item-home a i {
 	padding-top:45px;
 }
 
-.join-us-tabs:hover, .join-us-tabs.join-us-tab-selected {
-	background:#00bcbd !important;
+#tab-partener:hover {
+	background: #1B8A8A !important;
 }
 
-.join-us-tabs:hover .circle-icons p, .join-us-tabs:hover .circle-icons p i {
-	color:#fffe99 !important;
-	border-color:#fffe99;
-	-webkit-text-stroke-color:#fffe99;
+#tab-voluntar:hover {
+	background: #2FB5AA !important;
+}
+
+.join-us-tabs.join-us-tab-selected, #tab-partener.join-us-tab-selected:hover, #tab-voluntar.join-us-tab-selected:hover {
+	background:#00bcbd !important;
 }
 
 .join-us-tabs .circle-icons p {
