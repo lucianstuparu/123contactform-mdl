@@ -178,6 +178,10 @@ div.fieldcontainer.focus .row .class123-label.class123-fieldname, .validation-er
     top: -30px !important;
 }
 
+.row label.class123-label.class123-fieldname.active.default {
+	font-size:16px !important;	
+}
+
 div.fieldcontainer {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
