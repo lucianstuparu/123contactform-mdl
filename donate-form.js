@@ -49,10 +49,10 @@ $('#id123-control30234080_0').on('click', function() {
 		$('#formwrapper').each(function () {
     			this.style.setProperty( 'padding-top', '45px', 'important' );
 		});
-		$('#id123-control30234080_0 .label-text').each(function () {
+		$('#fieldcontainer2 .label-text').each(function () {
     			this.style.setProperty( 'color', '#99ffff ', 'important' );
 		});
-		$('input[type="checkbox"]:not(old)+label>.outside').each(function () {
+		$('#id123-control30234080_0').each(function () {
     			this.style.setProperty( 'border-color', '#99ffff ', 'important' );
 		});
 	}
