@@ -257,10 +257,6 @@ div.subitem  input.class123-button, div.control-row  input.class123-button {
   overflow: hidden;
 }
 
-div.subitem  input.class123-button {
-	width:100%;	
-}
-
 div.subitem  input.class123-button:hover, div.subitem  input.class123-button:focus, div.subitem  input.class123-button:active, div.control-row  input.class123-button:hover, div.control-row  input.class123-button:focus, div.control-row  input.class123-button:active {
   color: rgba(0, 0, 0, 0.87);
   background-color:white;
