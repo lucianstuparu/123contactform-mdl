@@ -1243,7 +1243,7 @@ body #page-container .et_pb_button {
 		float:left;
 		padding-left:0;
 	}
-    #subscribe-news-form div.et_contact_bottom_container {
+   	#subscribe-news-form div.et_contact_bottom_container {
 		margin: 0 auto;
 		float:none;
 		display:block;
@@ -1258,6 +1258,23 @@ body #page-container .et_pb_button {
 	#subscribe-news-form div.et_contact_bottom_container .et_pb_contact_submit.et_pb_button {
 		border-top-left-radius:3px;
 		border-bottom-left-radius:3px;
+	}
+	.donate-details-col {
+		margin: 0 auto;
+    		width: 80% !important;
+		float: none !important;
+		padding-right:0 !important;
+		margin-bottom:30px !important;
+	}
+	.become-donor-section-header .circle-icons a, .become-donor-section-header .circle-icons p {
+		float:none !important;
+		text-align:center !important;
+	}
+	
+	.become-donor-section-header .circle-icons p {
+		padding:0 !important;
+		margin-top: 15px !important;
+		margin-bottom:20px !important;
 	}
 }
 
