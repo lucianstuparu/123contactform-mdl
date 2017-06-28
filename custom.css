@@ -15,11 +15,11 @@
 }
 
 input[type="radio"]:not(old)+label>.outside {
-  border: 2px solid #017D7C !important;
+  border: 2px solid #009999 !important;
 }
 
 input[type="radio"]:not(old)+label>.outside>.inside {
-  background: #017D7C !important;
+  background: #009999 !important;
   margin:2px !important;
 }
 
@@ -28,7 +28,7 @@ input[type="checkbox"]:not(old)+label>.outside>.inside {
 }
 
 .label-text a {
-  color:#017D7C !important;
+  color:#009999 !important;
 }
 
 .fieldcontainer {
@@ -128,7 +128,7 @@ div.subitem input[type=text], div.subitem input[type=email], div.subitem textare
 }
 
 div.subitem input[type=text]:focus, div.subitem input[type=email]:focus, div.subitem textarea:focus, div.subitem .select2-container a.select2-choice:active {
-  border-color: #017D7C;
+  border-color: #009999;
   border-width: 2px;
 }
 
@@ -173,7 +173,7 @@ div.subitem label.class123-label.class123-fieldname {
 
 div.fieldcontainer.focus .row .class123-label.class123-fieldname, .validation-error .row .class123-label.class123-fieldname, .row label.class123-label.class123-fieldname.active{
     font-size: 13px !important;
-    color: #017D7C !important;
+    color: #009999 !important;
     font-weight: 400;
     top: -30px !important;
 }
@@ -186,7 +186,7 @@ div.fieldcontainer {
 
 .focus .row .class123-label.class123-fieldname.requiredfield:not(.likert-label):after, .validation-error .row .class123-label.class123-fieldname.requiredfield:not(.likert-label):after, .row label.class123-label.class123-fieldname.active.requiredfield:not(.likert-label):after {
 	font-size: 13px !important;
-    color: #017D7C !important;
+    color: #009999 !important;
     font-weight: 400;
 }
 
@@ -201,12 +201,12 @@ div.fieldcontainer {
 
 input[type="checkbox"]:not(old)+label>.outside{
 	border-radius:2px;
-	border-color: #017D7C;
+	border-color: #009999;
 	border-width: 2px;
 }
 
 input[type="checkbox"]:not(old)+label>.outside>.inside {
-	background-color: #017D7C;
+	background-color: #009999;
 }
 
 input#id123-control29537184::before {
@@ -226,7 +226,7 @@ div.subitem  input.class123-button, div.control-row  input.class123-button {
   line-height: 18px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.87);
-  background-color: #017D7C;
+  background-color: #009999;
   transition: all 0.2s ease-in-out;
   display: inline-block;
   height: 54px;
@@ -316,7 +316,7 @@ div.subitem  input.class123-button + div.subitem  input.class123-button, div.con
 
 div.subitem  input.class123-button, div.control-row  input.class123-button, span.fileinput-button {
   color: #FFF;
-  background-color: #017D7C;
+  background-color: #009999;
 }
 
 span.fileinput-button {
@@ -330,5 +330,5 @@ div.subitem  input.class123-button:hover, div.subitem  input.class123-button:foc
 
 div.subitem  input.class123-button[disabled]:hover, div.subitem  input.class123-button[disabled]:focus, div.subitem  input.class123-button[disabled]:active, div.control-row  input.class123-button[disabled]:hover, div.control-row  input.class123-button[disabled]:focus, div.control-row  input.class123-button[disabled]:active {
   color: #FFF;
-  background-color: #017D7C;
+  background-color: #009999;
 }
