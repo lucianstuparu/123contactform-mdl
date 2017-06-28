@@ -1,3 +1,7 @@
-(function($){
-	$('#donate-box-header1', window.parent.document).hide();
-})(jQuery);
+$('#id123-control30234080_0').on('click', function() {
+		if ($(this).is(':checked')) {
+		    $('#formwrapper').css('padding-top', '25px');
+		} else {
+			
+		}
+	});
