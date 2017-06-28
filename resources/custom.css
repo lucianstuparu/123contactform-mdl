@@ -678,8 +678,9 @@ ul#top-menu .menu-item-home a i {
 }
 
 .become-donor-section-header .circle-icons i {
-	color:#717171;
-	border-color:#717171;
+	color:#009999;
+	border-color:#009999;
+	border-width: 1px !important;
 }
 
 .circle-icons p {
@@ -690,7 +691,7 @@ ul#top-menu .menu-item-home a i {
 }
 
 .become-donor-section-header .circle-icons p {
-	color: #717171;
+	color: #009999;
 	font-weight:400;
 	line-height:0.5em;
 	float:left;
@@ -708,7 +709,7 @@ ul#top-menu .menu-item-home a i {
 }
 
 .become-donor-section-header .circle-icons p b {
-	color: #717171;
+	color: #009999;
 	font-weight:900;
 	line-height:1em;
 }
