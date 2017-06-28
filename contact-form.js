@@ -26,6 +26,10 @@ $("div.subitem input, div.subitem textarea").on("focusout", function() {
  }
 });
 
+if ($('.navigationButtons input[name="goPrevPage"]').size() == 0) {
+    $('.navigationButtons input[type="submit"]').css('width', '100%');
+}
+
 $(window).on("blur", function() {
  $('.fieldcontainer.focus').removeClass('focus');
 });
