@@ -47,7 +47,12 @@ input[type="checkbox"]:not(old)+label>.outside>.inside {
 	font-weight:700;
 	background:#e7e7e7;
 	text-align:left;
-	color: #333;
+	color: #333333 !important;
+	border-right:10px solid #fff;
+}
+
+.class123-pagination .pagination-item:last-child {
+	border:0;
 }
 
 .pagination-active {
@@ -59,13 +64,15 @@ input[type="checkbox"]:not(old)+label>.outside>.inside {
 	padding-bottom:30px;	
 }
 
-span.page-number {
-    font-weight:900;
-    font-size:30px;
-}
-
 span.page-title {
     font-size:18px;
+}
+
+.class123-pagination .pagination-item .page-number {
+    font-weight:900;
+    font-size:30px;
+    padding:0;
+    line-height:1.2em;
 }
 
 .form-top-aligned .row-fluid {
