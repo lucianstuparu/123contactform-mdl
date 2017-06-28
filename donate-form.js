@@ -36,23 +36,17 @@ $(window).on("blur", function() {
 
 $('#id123-control30234080_0').on('click', function() {
 	if ($(this).is(':checked')) {
-		$('#formwrapper').each(function () {
-    			this.style.setProperty( 'padding-top', '25px', 'important' );
-		});
 		$('#fieldcontainer2 .label-text').each(function () {
     			this.style.setProperty( 'color', '#fff', 'important' );
 		});
-		$('#id123-control30234080_0').each(function () {
+		$('#fieldcontainer2 span.outside').each(function () {
     			this.style.setProperty( 'border-color', '#fff', 'important' );
 		});
 	} else {
-		$('#formwrapper').each(function () {
-    			this.style.setProperty( 'padding-top', '45px', 'important' );
-		});
 		$('#fieldcontainer2 .label-text').each(function () {
     			this.style.setProperty( 'color', '#99ffff ', 'important' );
 		});
-		$('#id123-control30234080_0').each(function () {
+		$('#fieldcontainer2 span.outside').each(function () {
     			this.style.setProperty( 'border-color', '#99ffff ', 'important' );
 		});
 	}
