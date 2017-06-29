@@ -1800,6 +1800,7 @@ form.et-search-form input {
 	line-height:40px;
 	text-transform:none !important;
 	color:#003333;
+	right:40px !important;
 }
 
 form.et-search-form ::-webkit-input-placeholder {
