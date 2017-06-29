@@ -830,6 +830,10 @@ h1, h2 {
 	color:#003333;
 }
 
+#home-header-buttons .et_pb_button_module_wrapper {
+	display:inline-block;
+}
+
 #home-header-buttons {
 	text-align:center;
 }
