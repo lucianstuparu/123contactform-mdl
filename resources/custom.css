@@ -1407,6 +1407,14 @@ body #page-container .et_pb_button {
 	margin-left: 40px;
 }
 
+.et_search_form_container form {
+	height:40px;
+}
+
+form.et-search-form input {
+	right:40px !important;
+}
+
 .map-container {
 	width: 100%;
 }
