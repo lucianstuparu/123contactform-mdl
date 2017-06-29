@@ -799,13 +799,7 @@ h1, h2 {
 }
 
 #header-section {
-  min-height: 500px;
-  padding-bottom:30px !important;
   background-position: top;
-}
-
-#header-section.not-homepage {
-	padding-top:200px !important;
 }
 
 #header-section h1, #header-section h2{
