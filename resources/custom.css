@@ -830,17 +830,14 @@ h1, h2 {
 	color:#003333;
 }
 
-.inline-buttons a {
-  display: inline-block;
+#home-header-buttons .et_pb_button_module_wrapper {
+	display:inline;
+	text-align:center;
+	margin:0 8px 0 8px;
 }
 
-.inline-buttons div {
-  display: inline-block;
-  margin-right: 20px; 
-}
-
-.inline-buttons {
-  text-align: center;
+#home-header-buttons {
+	text-align:center;
 }
 
 .section-title, .section-title-inner {
