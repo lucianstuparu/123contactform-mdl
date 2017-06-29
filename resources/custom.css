@@ -808,26 +808,15 @@ h1, h2 {
 	padding-top:200px !important;
 }
 
-#header-section h1, h2 {
-  text-align: center;
-}
-
-#header-section h1 {
-    color: #696969;
-    font-size: 7vw;
-    text-stroke: 1px;
-    -webkit-text-stroke: 2px;
-    text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
-    font-smooth: always;
-    -webkit-font-smoothing: antialiased;
+#header-section h1, #header-section h2{
+    margin:0 !important;
+    padding:0 !important;
 }
 
 #header-section h2 {
-   margin-top: -42pt;
+   margin-top: -7px !important;
    font-weight: 700 !important;
-   font-size: 3.5vw;
-	color:#003333;
+   color:#003333;
 }
 
 #home-header-buttons .et_pb_button_module_wrapper {
