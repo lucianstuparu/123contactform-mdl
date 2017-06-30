@@ -1126,9 +1126,7 @@ body #page-container .et_pb_button {
     .et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a {
 		padding-bottom:10px;
 	}
-	.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
-    	padding: 50px 0 0 0;
-	}
+	
 	.et_fullwidth_nav #main-header .container {
 		border-bottom:1px solid #68dfcd;
 		max-width: calc(100% - 120px);
@@ -1150,9 +1148,7 @@ body #page-container .et_pb_button {
     .et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a {
 		padding-bottom:10px;
 	}
-	.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
-    	padding: 70px 0 0 0;
-	}
+	
 	.et_fullwidth_nav #main-header .container {
 		border-bottom:1px solid #68dfcd;
 		max-width: calc(100% - 120px);
@@ -1171,9 +1167,7 @@ body #page-container .et_pb_button {
     .et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a {
 		padding-bottom:10px;
 	}
-	.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
-    	padding: 70px 0 0 0;
-	}
+	
 	.et_fullwidth_nav #main-header .container {
 		border-bottom:1px solid #68dfcd;
 		max-width: calc(100% - 120px);
