@@ -1675,6 +1675,7 @@ a.join-us-circle {
 
 a.join-us-circle:hover {
     color:#fff;
+    background:rgba(255,255,255,0.1);
 }
 
 a.join-us-circle:hover i {
