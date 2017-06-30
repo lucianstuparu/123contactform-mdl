@@ -880,9 +880,17 @@ h1, h2 {
 	float:none;
 }
 
+ul.et_pb_tabs_controls:after {
+	border-width:1px !important;
+	border-top:0 !important;
+}
+
+.et_pb_tabs_0.et_pb_tabs .et_pb_tabs_controls li.et_pb_tab_active {
+	bottom:-1px !important;
+}
+
 .tabs ul.et_pb_tabs_controls:after {
     border-bottom: 1px solid #999999;
-	border-top:0;
 	top:-7px;
 	z-index:1;
 }
@@ -1039,7 +1047,44 @@ body #page-container .et_pb_button {
 #contact_legal_details {
 	font-size:14px;
 	line-height: 1.4em;
+	padding-top:10px;
+	font-weight:400;
 }
+
+.et_pb_tabs_controls li a {
+	padding: 0 30px 0;
+	font-size:16px !important;
+}
+
+.et_pb_tabs_0.et_pb_tabs .et_pb_tabs_controls li {
+	letter-spacing: 1px;
+}
+
+.contact-email-addr a {
+	font-weight:700;
+}
+
+.donate-box-footer {
+	color:#ccebeb;
+	text-align:center;
+	font-size:12px;
+	line-height:30px;
+	position:absolute;
+	bottom:20px;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.donate-box-footer .donate-cc {
+	font-size:30px;
+	line-height:1em;
+	vertical-align:middle;
+	display:inline-block;
+	padding-left:15px;
+}
+
 
 
 /* placeholder styling */
@@ -1670,12 +1715,14 @@ a.join-us-circle {
 	height:100%;
 	text-align:center;
 	color: #ffffff;
-	padding-top:67px;
+	padding-top:80px;
+    	transition:background 0.2s linear;
 }
 
 a.join-us-circle:hover {
     color:#fff;
     background:rgba(255,255,255,0.1);
+    padding-top:50px;
 }
 
 a.join-us-circle:hover i {
@@ -1687,13 +1734,14 @@ a.join-us-circle:hover i {
 }
 
 a.join-us-circle i {
-	line-height: 100px;
+    line-height: 100px;
     vertical-align: middle;
     width: 100px;
     border-radius: 50%;
     font-size: 48px;
     border: 1px solid #ffffff;
     height: 100px;
+    transition:background 0.2s linear;
 }
 
 a.join-us-circle i.fa-signing {
@@ -1727,11 +1775,35 @@ a.join-us-circle i.fa-signing {
 .join-us-circle-text-extra {
 	color:#82cfc9;
 	font-weight:400;
-	text-align:left;
 	line-height:1em;
 	width:180px;
-	height:70px;
-	margin:0 auto 30px auto;
+	margin:15px auto 0 auto;
+	height:45px;
+	display:none;
+	text-align:center;
+}
+
+a.join-us-circle:hover p.join-us-circle-text-extra {
+	display:block;
+}
+
+a.join-us-circle button {
+	height:40px;
+	font-size:14px;
+	background:#66cccc;
+	border:0;
+	border-radius:3px;
+	color:#006666;
+	cursor:pointer;
+	padding:0 24px 0 24px;
+	margin-top:30px;
+	margin-bottom:75px;
+    transition:background 0.2s linear;
+}
+
+a.join-us-circle:hover button {
+	background:#fff;
+	margin-bottom:45px;
 }
 
 #donate-box-header1 p {
