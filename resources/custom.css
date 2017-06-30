@@ -1674,14 +1674,15 @@ a.join-us-circle {
 }
 
 a.join-us-circle:hover {
-	background:rgba(255,255,255,0.1);
-    color:#fffe99;
+    color:#fff;
 }
 
 a.join-us-circle:hover i {
-	border-color:#fffe99;
-	-moz-text-stroke-color: #fffe99 !important;
-    -webkit-text-stroke-color: #fffe99 !important;
+	border-color:#fff;
+	background:#fff;
+	-moz-text-stroke-color: #006666  !important;
+    -webkit-text-stroke-color: #006666  !important;
+	color:#006666;
 }
 
 a.join-us-circle i {
