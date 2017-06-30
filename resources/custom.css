@@ -26,6 +26,7 @@ a.circle-icons:hover p, a.circle-icons:hover p i {
 #footer-social-area a {
 	margin:auto 35px;
 	font-size:36px;
+	display:inline-block;
 }
 
 #footer-contact-area {
