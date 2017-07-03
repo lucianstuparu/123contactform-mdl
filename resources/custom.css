@@ -1711,6 +1711,8 @@ box-shadow: 0px 0px 10px 1px rgba(51,102,102,0.75);
 	padding:9px 9px 9px 9px;
 	background:#dddddd;
     overflow:hidden;
+	transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
 }
 
 .home-project-partner-logo {
