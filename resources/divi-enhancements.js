@@ -29,6 +29,8 @@
 					initially
 					if ( ! window.et_is_vertical_nav && ( $body.hasClass( 'et_fixed_nav' ) )) {
 				*/
+				
+				console.log('lucian3');
 
 				if ( ! window.et_is_vertical_nav && ( $body.hasClass( 'et_fixed_nav' ) ) && et_primary_header_top != 0 ) {
 					
