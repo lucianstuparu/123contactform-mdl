@@ -1,3 +1,5 @@
+$('#id123-control30234032').attr('placeholder', '10');
+
 $('div.subitem select').each(function() {
  $("#" + $(this).attr('id').replace('control', 'title')).addClass('active');
 });
