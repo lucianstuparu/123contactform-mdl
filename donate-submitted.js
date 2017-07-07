@@ -1,2 +1,2 @@
-parent.postMessage("Hello","https://civictech.ro");
-alert(console.log($('#donation-data').size()));
+parent.postMessage($('#donation-data').html(),"https://civictech.ro");
+console.log($('#donation-data').html());
