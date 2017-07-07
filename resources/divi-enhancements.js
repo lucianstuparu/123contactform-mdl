@@ -9,7 +9,7 @@
     }
     return false;
   });
-	$(document).ready( function(){
+
 		function et_change_primary_nav_position( delay ) {
 			setTimeout( function() {
 				var $body = $('body'),
@@ -38,5 +38,4 @@
 				}
 			}, delay );
 		}
-	});
 })(jQuery);
