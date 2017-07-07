@@ -1,6 +1,6 @@
 (function($){
 	window.addEventListener("message", function(event) {
-    if (event.origin != 'http://www.123contactform.com') {
+    if (event.origin != 'https://www.123contactform.com') {
       return;
     }
 
