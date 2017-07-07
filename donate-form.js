@@ -36,6 +36,8 @@ $(window).on("blur", function() {
  $('.fieldcontainer.focus').removeClass('focus');
 });
 
+$('#id123-control30234032').focus();
+
 $('#id123-control30234080_0').on('click', function() {
 	if ($(this).is(':checked')) {
 		$('#fieldcontainer2 .label-text').each(function () {
