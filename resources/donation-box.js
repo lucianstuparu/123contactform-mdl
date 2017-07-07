@@ -6,7 +6,7 @@
 
     var data = event.data.split('|');
     
-    $('#donate-box-header2 span.header-amount').html(data[0]);
+    $('#donate-box-header2 span.header-amount').html(data[1]);
     $('#donate-box-header1').html($('#donate-box-header2').html());
     
     $('#donate-box-step2 input.paypal-amount').val(data[1]);
