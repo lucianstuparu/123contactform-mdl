@@ -1,6 +1,6 @@
 (function($){
 	window.addEventListener("message", function(event) {
-    if (event.origin != 'https://www.123contactform.com' || !(event.data instanceof String) || event.data.charAt(0) != '|') {
+    if (event.origin != 'https://www.123contactform.com' || event.data.charAt(0) != '|') {
       return;
     }
 
