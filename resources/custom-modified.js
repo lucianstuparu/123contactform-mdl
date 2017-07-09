@@ -302,8 +302,8 @@
 				
 				// Non page builder page needs to be added by #main-content .container's fixed height
 				if ( window.et_is_transparent_nav && ! window.et_is_vertical_nav && $et_main_content_first_row.length ) {
-					
-					header_height += 58;
+					/** commented by lucian */
+					//header_height += 58;
 				}
 
 				// Calculate fixed header height by cloning, emulating, and calculating its height
