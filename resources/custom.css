@@ -79,7 +79,7 @@ a.circle-icons:hover p, a.circle-icons:hover p i {
 
 #footer-widgets div.footer-widget:nth-child(2) {
 	background:#181f1e;
-	margin:0;
+	margin:0 !important;
 	padding-top:25px;
 	text-align:center;
 	padding-bottom:45px;
