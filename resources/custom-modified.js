@@ -299,9 +299,10 @@
 
 				// Get header height from header attribute
 				header_height = parseInt( $main_header.attr( 'data-height-onload' ) ) + secondary_nav_height;
-
+				
 				// Non page builder page needs to be added by #main-content .container's fixed height
 				if ( window.et_is_transparent_nav && ! window.et_is_vertical_nav && $et_main_content_first_row.length ) {
+					
 					header_height += 58;
 				}
 
@@ -356,6 +357,7 @@
 					$et_main_content_first_row.css({ 'paddingTop' : '' });
 
 					if ( et_window_width < 980 ) {
+						
 						header_height += 40;
 					}
 
@@ -365,9 +367,11 @@
 							'paddingTop' : '0'
 						});
 					}
+					
+					
 
 					if ( is_post_pb_full_layout_has_title ) {
-
+						
 						// Add header height to post meta wrapper as padding top
 						$et_main_content_first_row_meta_wrapper.css({
 							'paddingTop' : header_height
@@ -380,13 +384,17 @@
 							$et_pb_first_row,
 							'paddingTop'
 						);
-
-						$et_pb_first_row.css({
+						
+						/** changed by lucian 
+							initially
 							'paddingTop' : header_height
+						*/
+						$et_pb_first_row.css({
+							'paddingTop' : header_height - 32
 						});
 
 					} else {
-
+							
 						// Save current styling for the next resize cycle
 						et_save_initial_page_container_style(
 							$et_main_content_first_row,
