@@ -1302,25 +1302,15 @@ body #page-container .et_pb_button {
 		padding-right:10px;
 	}
 	#subscribe-news-form p.et_pb_contact_field {
-		width:100%;
 		float:left;
 		padding-left:0;
+		width: calc(100% - 80px);
 	}
    	#subscribe-news-form div.et_contact_bottom_container {
-		margin: 0 auto;
-		float:none;
-		display:block;
-		width:100px;
-		clear:both;
-	}
-	#subscribe-news-form .input {
-		border-top-right-radius:3px;
-		border-bottom-right-radius:3px;
-		border-right-width:1px;
+		width:80px;
 	}
 	#subscribe-news-form div.et_contact_bottom_container .et_pb_contact_submit.et_pb_button {
-		border-top-left-radius:3px;
-		border-bottom-left-radius:3px;
+		
 	}
 	.donate-details-col {
 		margin: 0 auto;
