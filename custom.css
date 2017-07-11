@@ -370,7 +370,7 @@ input[type="checkbox"]:not(old)+label {
 }
 
 .row label.class123-label.class123-fieldname.active.one-row {
-	top: -40px !important;
+	top: -10px !important;
 }
 
 body .fieldcontainer label.class123-checkbox-other-label span.label-text {
