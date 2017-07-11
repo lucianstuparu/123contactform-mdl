@@ -376,6 +376,14 @@ span.label-cont input.other-input {
 	display: inline-block;
 }
 
+input#goNextPage, input#id123-pbrev {
+    text-transform: none;
+}
+
+.fieldcontainer {
+	margin-top:30px;	
+}
+
 @media only screen and (max-width: 479px) {
 
 }
