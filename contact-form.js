@@ -2,9 +2,14 @@ $('div.subitem select').each(function() {
  $("#" + $(this).attr('id').replace('control', 'title')).addClass('active');
 });
 
-$("div.subitem input, div.subitem textarea").each(function() {
+$("div.subitem input[type='text'], div.subitem textarea").each(function() {
+ var label_id = $("#" + $(this).attr('id').replace('control', 'title'));
  if($(this).val() !== "" || $(this).attr('placeholder') != null) {
-  $("#" + $(this).attr('id').replace('control', 'title')).addClass('active');
+  $("#" + label_id).addClass('active');
+ }
+ var label_height = $("#" + label_id).height();
+ if (label_height > 28) {
+  $(this).css('margin-top', (label_height - 24) + 'px');
  }
 });
 
