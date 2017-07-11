@@ -358,6 +358,10 @@ input[type="checkbox"]:not(old)+label {
 	top: -60px !important;
 }
 
+.row label.class123-label.class123-fieldname.active.two-rows:after {
+	top:40px !important;	
+}
+
 .row label.class123-label.class123-fieldname.active.one-row {
 	top: -40px !important;
 }
