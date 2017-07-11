@@ -32,7 +32,8 @@ input[type="checkbox"]:not(old)+label>.outside>.inside {
 }
 
 .fieldcontainer {
-  margin-bottom:15px !important;	
+  margin-bottom:15px !important;
+  margin-top:20px !important;	
 }
 
 .select2-container {
@@ -207,6 +208,7 @@ input[type="checkbox"]:not(old)+label>.outside{
 	border-radius:2px;
 	border-color: #009999;
 	border-width: 2px;
+	margin-top:8px !important;
 }
 
 input[type="checkbox"]:not(old)+label>.outside>.inside {
@@ -356,7 +358,7 @@ input[type="checkbox"]:not(old)+label {
 }
 
 .row label.class123-label.class123-fieldname.active.two-rows {
-	top: -60px !important;
+	
 }
 
 .row label.class123-label.class123-fieldname.active.two-rows:after {
@@ -378,10 +380,6 @@ span.label-cont input.other-input {
 
 input#goNextPage, input#id123-pbrev {
     text-transform: none;
-}
-
-.fieldcontainer {
-	margin-top:30px;	
 }
 
 @media only screen and (max-width: 479px) {
