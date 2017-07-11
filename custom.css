@@ -349,3 +349,28 @@ div.subitem  input.class123-button[disabled]:hover, div.subitem  input.class123-
     color: #009999 !important;
     border: 2px solid #009999 !important;
 }
+
+input[type="checkbox"]:not(old)+label {
+	margin-top: 15px;
+}
+
+.row label.class123-label.class123-fieldname.active.two-rows {
+	top: -60px !important;
+}
+
+.row label.class123-label.class123-fieldname.active.one-row {
+	top: -40px !important;
+}
+
+body:not(.page_edit_fields) .class123-checkbox-other-label .label-text {
+	top: 0px !important;
+}
+
+.label-cont .other-input {
+	width: auto !important;
+    display: inline;
+}
+
+@media only screen and (max-width: 479px) {
+
+}
