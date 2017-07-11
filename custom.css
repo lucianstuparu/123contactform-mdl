@@ -33,7 +33,11 @@ input[type="checkbox"]:not(old)+label>.outside>.inside {
 
 .fieldcontainer {
   margin-bottom:15px !important;
-  margin-top:20px !important;	
+  
+}
+
+.fieldcontainer:not(.rowdown) {
+	margin-top:20px !important;	
 }
 
 .select2-container {
