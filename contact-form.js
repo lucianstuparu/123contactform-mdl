@@ -10,7 +10,13 @@ $("div.subitem input, div.subitem textarea").each(function() {
 
 $("div.subitem input[type='checkbox'], div.subitem input[type='radio']").each(function() {
  var input_id = $(this).attr('id');
+ 
  $('label[for="'+input_id+'"].class123-fieldname').addClass('active').addClass('default');
+ if ($('label[for="'+input_id+'"].class123-fieldname').height() > 28) {
+     $('label[for="'+input_id+'"].class123-fieldname').addClass('two-rows');
+  } else {
+     $('label[for="'+input_id+'"].class123-fieldname').addClass('one-row');
+  }
 });
 
 $('div.subitem span.fileinput-button').each(function() {
