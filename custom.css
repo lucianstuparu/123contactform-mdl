@@ -375,11 +375,6 @@ span.label-cont input.other-input {
 	display: inline-block;
 }
 
-.label-cont .other-input {
-	width: auto !important;
-    display: inline;
-}
-
 @media only screen and (max-width: 479px) {
 
 }
