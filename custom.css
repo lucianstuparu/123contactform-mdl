@@ -262,6 +262,7 @@ div.subitem  input.class123-button, div.control-row  input.class123-button {
          font-size: 20px;
          padding-left: 5px;
          padding-right: 5px;
+	 width: 100%;
      }
 }
 
@@ -344,7 +345,7 @@ div.subitem  input.class123-button[disabled]:hover, div.subitem  input.class123-
   background-color: #009999;
 }
 
-.js-previous-btn {
+#id123-pbrev {
     background: #fff !important;
     color: #009999 !important;
     border: 2px solid #009999 !important;
