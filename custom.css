@@ -362,8 +362,13 @@ input[type="checkbox"]:not(old)+label {
 	top: -40px !important;
 }
 
-body:not(.page_edit_fields) .class123-checkbox-other-label .label-text {
-	top: 0px !important;
+body .fieldcontainer label.class123-checkbox-other-label span.label-text {
+	top: 3px !important;
+	width:100%;
+}
+
+span.label-cont input.other-input {
+	display: inline-block;
 }
 
 .label-cont .other-input {
