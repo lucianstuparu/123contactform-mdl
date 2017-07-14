@@ -1,4 +1,4 @@
-$('#id123-control30234032').attr('placeholder', '10');
+$('#id123-control30234032').attr('placeholder', 'Suma (de exemplu: 10)');
 
 $('div.subitem select').each(function() {
  $("#" + $(this).attr('id').replace('control', 'title')).addClass('active');
@@ -35,8 +35,6 @@ if ($('.currentPageActive.navigationButtons input[type="submit"]').size() == 1) 
 $(window).on("blur", function() {
  $('.fieldcontainer.focus').removeClass('focus');
 });
-
-$('#id123-control30234032').focus();
 
 $('#id123-control30234080_0').on('click', function() {
 	if ($(this).is(':checked')) {
