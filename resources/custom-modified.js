@@ -262,6 +262,7 @@
 		}
 
 		function et_fix_page_container_position(){
+			
 			var et_window_width     = parseInt( $et_window.width() ),
 				$top_header          = $( '#top-header' ),
 				$et_pb_first_row     = $( 'body.et_pb_pagebuilder_layout .et_pb_section:visible:first' ),
@@ -296,7 +297,7 @@
 					header_height += 58;
 				}
 			} else {
-
+				
 				// Get header height from header attribute
 				header_height = parseInt( $main_header.attr( 'data-height-onload' ) ) + secondary_nav_height;
 				
@@ -330,7 +331,7 @@
 
 			// Specific adjustment required for transparent nav + not vertical nav
 			if ( window.et_is_transparent_nav && ! window.et_is_vertical_nav ){
-
+				
 				// Add class for first row for custom section padding purpose
 				$et_pb_first_row.addClass( 'et_pb_section_first' );
 
@@ -343,7 +344,7 @@
 					is_no_pb_mobile                  = et_window_width <= 980 && $et_main_content_first_row.length;
 
 				if ( is_post_pb && ! ( is_post_pb_full_layout_no_title && is_pb_fullwidth_section_first ) ) {
-
+						
 					/* Desktop / Mobile + Single Post */
 
 					/*
@@ -367,7 +368,6 @@
 							'paddingTop' : '0'
 						});
 					}
-					
 					
 
 					if ( is_post_pb_full_layout_has_title ) {
@@ -409,7 +409,7 @@
 					}
 
 				} else if ( is_pb_fullwidth_section_first ){
-
+					
 					/* Desktop / Mobile + Pagebuilder + Fullwidth Section */
 
 					var $et_pb_first_row_first_module = $et_pb_first_row.children( '.et_pb_module:visible:first' );
@@ -606,7 +606,7 @@
 					}
 
 				} else if ( is_pb ) {
-
+					
 					/* Desktop / Mobile + Pagebuilder + Regular section */
 
 					// Remove first row's inline padding top styling to prevent looping padding-top calculation
@@ -621,8 +621,9 @@
 						saved_custom_padding_phone      = $et_pb_first_row.attr('data-padding-phone'),
 						saved_custom_padding_phone_top  = et_get_saved_padding_margin_value( saved_custom_padding_phone, 0 ),
 						applied_saved_custom_padding;
-
+					
 					if ( saved_custom_padding_top || saved_custom_padding_tablet_top || saved_custom_padding_phone_top ) {
+						
 						// Applies padding top to first section to automatically convert saved unit into px
 						if ( et_window_width > 980 && saved_custom_padding_top ) {
 							$et_pb_first_row.css({
@@ -646,14 +647,15 @@
 							paddingTop: ( header_height + applied_saved_custom_padding )
 						});
 					} else {
+						
 						// Pagebuilder ignores #main-content .container's fixed height and uses its row's padding
 						// Anticipate the use of custom section padding.
 						/** changed by lucian 
 							initially 
 							et_pb_first_row_padding_top = header_height + parseInt( $et_pb_first_row.css( 'paddingBottom' ) );
 						*/
-						et_pb_first_row_padding_top = header_height + parseInt( $et_pb_first_row.css( 'paddingTop' ) );
-
+						et_pb_first_row_padding_top = header_height;
+						
 						// Save current styling for the next resize cycle
 						et_save_initial_page_container_style(
 							$et_pb_first_row,
@@ -677,7 +679,7 @@
 					});
 
 				} else {
-
+					console.log('dsd');
 					$('#main-content .container:first-child').css({
 						'paddingTop' : header_height
 					});
