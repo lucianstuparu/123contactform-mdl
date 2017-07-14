@@ -679,7 +679,6 @@
 					});
 
 				} else {
-					console.log('dsd');
 					$('#main-content .container:first-child').css({
 						'paddingTop' : header_height
 					});
