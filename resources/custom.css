@@ -57,7 +57,7 @@ a.circle-icons:hover p, a.circle-icons:hover p i {
 .footer-widget div.widget_text{
 	margin-left: auto !important;
 	margin-right: auto !important;
-	margin-bottom:35px !important;
+	margin-bottom:0 !important;
 	float:none;
 	width:80%;
 }
