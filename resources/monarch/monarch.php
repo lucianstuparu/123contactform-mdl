@@ -120,6 +120,7 @@ class ET_Monarch {
 
 		add_shortcode( 'et_social_follow', array( $this, 'display_shortcode' ) );
 		add_shortcode( 'et_social_share_media', array( $this, 'et_social_share_media' ) );
+		add_shortcode( 'et_social_share', array( $this, 'display_inline_share_shortcode' ) );
 
 		register_activation_hook( __FILE__, array( $this, 'activate_plugin' ) );
 
@@ -4239,6 +4240,11 @@ class ET_Monarch {
 
 		return $content;
 	}
+
+	function display_inline_share_shortcode() {
+        $monarch_options = $this->monarch_options;
+        return $this->generate_inline_icons( 'et_social_inline_top' );
+    }
 
 
 	/**
