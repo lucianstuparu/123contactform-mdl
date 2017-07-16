@@ -2043,11 +2043,7 @@ ul.member-profile-social-links {
 }
 
 .blurb-audience:hover {
-	background:#006666 !important;
-}
-
-.blurb-audience:hover p {
-	color: #fff !important;
+	background:#004444 !important;
 }
 
 .et_pb_text_inner h2 {
