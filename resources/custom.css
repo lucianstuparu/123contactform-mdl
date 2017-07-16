@@ -1518,7 +1518,7 @@ box-shadow: 0px 0px 10px 4px rgba(255,255,255,0.75);
 	margin-right:20px !important;
 }
 
-.project-github-button a {
+.project-github-button a, a.project-info-github-link {
 	font-size:16px;
 	color:#fff !important;
 	font-weight:400;
@@ -1530,12 +1530,12 @@ box-shadow: 0px 0px 10px 4px rgba(255,255,255,0.75);
 	height:42px;
 }
 
-.project-github-button a:hover {
+.project-github-button a:hover, a.project-info-github-link:hover {
 	background:#ccc;
 	color:#003333 !important;
 }
 
-.project-live-button-top a {
+.project-live-button-top a, a.project-info-live-link {
 	font-size:18px;
 	color:#003333 !important;
 	font-weight:700;
@@ -1547,7 +1547,7 @@ box-shadow: 0px 0px 10px 4px rgba(255,255,255,0.75);
 	height:42px;
 }
 
-.project-live-button-top a:hover {
+.project-live-button-top a:hover, a.project-info-live-link:hover {
 	background:#003333;
 	color:#fff !important;
 }
