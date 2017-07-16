@@ -4243,7 +4243,7 @@ class ET_Monarch {
 
 	function display_inline_share_shortcode() {
         $monarch_options = $this->monarch_options;
-        return $this->generate_inline_icons( 'et_social_inline_top' );
+        return $this->generate_inline_icons( 'et_social_inline_custom' );
     }
 
 
