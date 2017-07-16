@@ -1952,7 +1952,13 @@ form.et-search-form :-moz-placeholder {
 }
 
 #main-header .et_mobile_menu {
-	background:rgba(255,255,255,0.9) !important;
+	background:rgba(255,255,255,0.95) !important;
+	border:0;
+}
+
+.et_mobile_menu li a {
+	padding: 15px 5%;
+	font-size: 16px;
 }
 
 .et_mobile_menu li a:hover {
